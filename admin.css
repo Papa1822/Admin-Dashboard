@@ -147,3 +147,19 @@ line-height: 2;
 .sidebar{
     background-color: aquamarine;
 }
+/*main-body*/
+.inner-project-icon{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    margin-left: 6rem;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+}
+.project-content{
+    display: grid;
+    background-color: darkgrey;
+    margin: 10px;
+}
