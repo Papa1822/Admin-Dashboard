@@ -84,6 +84,66 @@ margin-left: 16rem;
 .header{
     background-color: beige;
 }
+/*sidebar*/
 
 
+.dashboard-icon{
+    width: 60px;
+    height: 60px;
+}
+.dashboard-section{
+    display: flex;
+    align-items: center;
+}
+.Dashboard-name{
+font-size: 1.5rem;
+font-weight: bold;
+}
+.home-icon,
+.profile-icon,
+.messages-icon,
+.history-icon,
+.tasks-icon,
+.communities-icon,
+.settings-icon,
+.support-icon,
+.privacy-icon{
+    width: 20px;
+    height: 20px;
+}
+.home-name,
+.profile-name,
+.messages-name,
+.history-name,
+.tasks-name,
+.communities-name,
+.settings-name,
+.support-name,
+.privacy-name{
+font-weight: bold;
+font-size: 1.1rem;
+}
+.home,
+.profile,
+.messages,
+.history,
+.tasks,
+.communities,
+.settings,
+.support,
+.privacy{
+    display: flex;
+align-items: center;
+}
+.first-icon-set{
 
+padding-top: 3rem;
+line-height: 2;
+}
+.second-icon-set{
+    padding-top: 3rem;
+    line-height: 2;
+}
+.sidebar{
+    background-color: aquamarine;
+}
