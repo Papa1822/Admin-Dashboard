@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+
+}
+.container{
+    height: 100vh;
+}
+
 /*header */
 /*top part of the header */
 .search-icon{
@@ -11,6 +19,7 @@
     width: 400px;
     border-radius: 20px;
     height: 20px;
+    background-color: rgb(197, 188, 188);
 
 
 }
@@ -18,7 +27,8 @@
 .bell{
     width: 30px;
     height: 30px;
-    padding-top: 10px;;
+    padding-top: 10px;
+
 }
 .little-pikachu{
     width: 70px;
@@ -29,11 +39,13 @@
     display: flex;
 
     gap: 1rem;
-    margin-left: 8rem;
+    margin-left: 18rem;
+    
 }
 .little-profile-name{
     font-weight: bold;
     font-size: 1rem;
+    padding-top: 15px;
 }
 .top-section-header{
 display: flex;
@@ -55,6 +67,7 @@ align-items: center;
 }
 .hi{
     font-weight: bold;
+    padding-left: 10px;
 }
 .benl{
     font-size: 1.5rem;
@@ -70,7 +83,7 @@ display: flex;
 
 
 width: 20rem;
-margin-left: 16rem;
+margin-left: 24rem;
 
 }
 .header-button{
@@ -82,9 +95,11 @@ margin-left: 16rem;
     width: 5rem;
 }
 .header{
-    background-color: beige;
+background-color: rgb(241, 235, 235);
     
     grid-column: 2 / 4;
+    padding: 1.5rem;
+border-radius: 8px;;
 
 }
 /*sidebar*/
@@ -113,6 +128,7 @@ font-weight: bold;
 .privacy-icon{
     width: 20px;
     height: 20px;
+
 }
 .home-name,
 .profile-name,
@@ -141,19 +157,20 @@ align-items: center;
 .first-icon-set{
 
 padding-top: 3rem;
-line-height: 2;
+line-height: 3;
 }
 .second-icon-set{
     padding-top: 3rem;
-    line-height: 2;
+    line-height: 3;
 }
 .sidebar{
-    background-color: aquamarine;
+background-color: #e2e0e5;
     grid-row: 1 / -1;
 
 
 
 }
+
 
 
 /*Project section */
@@ -162,18 +179,32 @@ line-height: 2;
     width: 25px;
     height: 25px;
     display: flex;
-    margin-left: 6rem;
+margin-left: 10rem;
+    gap: 1.5rem;
+
+    
 }
 .projects{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+
 .project-content{
     display: grid;
-    background-color: darkgrey;
+background-color: whitesmoke;
     margin: 10px;
     height: 200px;
+    padding: 1rem;
+ border-left: 8px solid rgb(0, 102, 255);
+ border-radius: 8px;
     
+}
+.project-section{
+    padding: 1rem;
+}
+.inner-title{
+font-weight: bold;
+font-size: 1rem;
 }
 
 
@@ -189,14 +220,22 @@ line-height: 2;
 .h-divider{
     background-color: rgb(219, 221, 231);
     height: 1px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 
 }
 .announcements-title{
     font-weight: bold;
 }
-.announcement-section{
+.announcements-section{
+padding: 1rem;
 
-
+}
+.announcements{
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: whitesmoke;
 }
 
 /*Trending section*/
@@ -216,15 +255,19 @@ color: rgb(103, 100, 100);
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color:lightpink;
-    padding: 10px;
+    background-color:whitesmoke;
+    padding: 1rem;
+    margin-top: 10px;
+    border-radius: 8px;
 }
 .main-title{
     font-size: 1.2rem;
     font-weight: bold;
+    padding-left: 5px;
 }
 .trending-section{
-
+    padding: 0.5rem;
+    background-color: #cbc8d0 ;
 }
 
 /*container*/
@@ -232,7 +275,16 @@ color: rgb(103, 100, 100);
     display: grid;
     grid-template-columns: 1fr  3fr 1fr;
     grid-template-rows: 1fr 6fr;
+    background-color:  #cbc8d0;
 
 }
+/*main*/
+.main{
+    background-color:   #cbc8d0;
+};
+.side-main{
+    background-color:  #cbc8d0 ;
+}
+
 
 
