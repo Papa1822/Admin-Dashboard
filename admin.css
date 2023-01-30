@@ -148,6 +148,8 @@ line-height: 2;
     background-color: aquamarine;
 }
 /*main-body*/
+
+/*Project section */
 .inner-project-icon{
     width: 25px;
     height: 25px;
@@ -162,4 +164,46 @@ line-height: 2;
     display: grid;
     background-color: darkgrey;
     margin: 10px;
+}
+
+
+/*Announcements section */
+.announcements{
+    display: flex;
+    flex-direction: column;
+
+    background-color: lemonchiffon;
+    padding: 20px;
+}
+.h-divider{
+    background-color: rgb(219, 221, 231);
+    height: 1px;
+
+}
+.announcements-title{
+    font-weight: bold;
+}
+
+/*Trending section*/
+.trending-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.trending-content{
+    display: flex;
+}
+.trending-bottom-name{
+color: rgb(103, 100, 100);
+}
+.trending{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:lightpink;
+    padding: 10px;
+}
+.main-title{
+    font-size: 1.2rem;
+    font-weight: bold;
 }
