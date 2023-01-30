@@ -1,0 +1,15 @@
+/*header */
+.search-icon{
+    width: 30px;
+    height: 30px;
+}
+.search-bar {
+    border: 2px solid black;
+    width: 400px;
+    border-radius: 20px;
+
+
+}
+.search-bar-section{
+    display: flex;
+}
